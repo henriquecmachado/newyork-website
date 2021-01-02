@@ -1,0 +1,153 @@
+/* CSS Reset Formats */
+
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+/* Body (Fonts and Other Formats) */
+
+body {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+/* Websilte Logo */
+
+
+/* Navigation Menu */
+
+nav ul {
+    text-align: right;
+    margin-top: -4.9rem;
+    position: absolute;
+    margin-left: 50rem;
+}
+
+nav ul li {
+    display:inline-block;
+    padding: 1rem;
+    margin-left: 5rem;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 4px;
+
+}
+
+nav ul li:hover {
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    transition: 0.8s;
+}
+
+.newyork-icon{
+    position: relative;
+    margin-left: 1.8rem;
+    margin-top: 1.6rem;
+    cursor: pointer;
+}
+
+/*  Background Image */
+
+#backround-image {
+    background-repeat: no-repeat;
+    height: 50rem;
+    width: 94rem;
+    margin-top: -7.3rem;
+}
+
+/* Texts */
+
+main  h1, h2{
+    color: white;
+}
+
+main  h1 {
+    position: absolute;
+    margin-top: -30rem;
+    margin-left: 2.5rem;
+    font-size: 3.5rem;
+
+}
+
+main  h2 {
+    position: absolute;
+    margin-top: -22rem;
+    margin-left: 2.5rem;
+    font-size: 2rem;
+}
+
+/* Carousel Images */
+
+.carousel-images {
+    overflow: hidden;
+}
+
+/*  Title Transitions */
+
+ @keyframes left-to-right {
+    from {
+        margin-left: 50%;
+    }
+    to {
+        margin-left: 0%;
+    }    
+ }
+
+#newyorkcity {
+    animation-name: left-to-right; 
+    animation-duration: 2s;
+ }
+
+ /* SOCIAL MEDIA ICONS */
+
+ .socialMedia__icons-list {
+     display: inline;
+     margin-left: 35rem;
+ }
+
+ .socialMedia__icons li {
+    list-style: none;
+    display: inline-flex;
+    padding: 10px;
+    margin-left: 2rem;
+    margin-top: -5rem;
+    
+
+ }
+
+ .socialMedia__icons li img {
+     width: 2rem;
+     height: 2rem;
+ }
+ #facebook {
+     position: absolute;
+     margin-top: -5rem;
+     cursor: pointer;
+ }
+
+ #instagram {
+    position: absolute;
+    margin-top: -5rem;
+    margin-left: 6rem;
+    cursor: pointer;
+}
+
+#twitter {
+    position: absolute;
+    margin-top: -5rem;
+    margin-left: 9.5rem;
+    cursor: pointer;
+}
+
+#textCiy {
+    position: absolute;
+    margin-left: 50rem;
+    margin-top: -6rem;
+    color: white;
+    font-weight: 700;
+}
+
